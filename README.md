@@ -150,3 +150,7 @@ src/main/webapp
 - `./gradlew integrationTest` starts the real app with [Testcontainers](https://testcontainers.com/): Payara and PostgreSQL in Docker, with the freshly built WAR. The tests then use it like a browser and like an API client: the public lot and its live feed, tickets and bad ticket codes, receipts for parked and departed cars, the billing page and its bad dates, the OpenAPI document, logins as each demo user, pages they are not allowed to see, forms without a CSRF token, fake and oversized images, and escaped user text.
 
 GitHub Actions runs both on every push (`.github/workflows/ci.yml`).
+
+## License
+
+ParkPulse is released under the [MIT License](LICENSE).
